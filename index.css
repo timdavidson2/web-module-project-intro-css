@@ -1,83 +1,33 @@
 *{
-    border:1px solid grey;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
-
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-body{
-    font-family: 'Roboto Mono', monospace;
-}
-
-
-nav{
-    text-align:center;
-    margin:2%;
-    height:40px;
+.links{
+    text-align: center;
 }
 .links a{
-    text-decoration:none;
-    margin:8% ;
-    padding:1%;
-    border-radius: 10px;
-    border:0px;
-    
-}
-.links .plan{
-    color: #FFFFFF;
-    background-color:#FF764E;
-}
-.links .learn{
-    color:#FFFFFF;
-    background-color: #5ED3EB;
-
-}
-.links .get{
-    color:#FFFFFF;
-    background-color:#FFCD69 ;
-}
-.headerImage{
-    
-    display: inline-block;
-}
-.headerImage img{
-    width:15%;
-    border-radius: 50%;
-    margin:2%;
-    
-}
-.yosemite, .explore, .open{
+    text-decoration: none;
     text-align: center;
-    
+    margin: 11%;
+    padding: 1.5%;
 }
-.yosemite{
-    font-size: 25px;
-    font-family: 'Chelsea Market', cursive;
-}
-.fire{
-    text-align: center;
-}
-p.fire{
-    font-size: 20px;
-}
-.fire img{
-    width: 10%;
-}
-.reservations{
-    text-align: center;
-
-}
-.reservations img{
-    width: 10%;
-    
-}
-
-.footerImage{
+header{
     width: 100%;
-    height: 200px;
-    
 }
-footer{
-    background-color:#F9E7DC ;
+.topImage{
+    display: inline-block;
+    width: 15%;
+    border-radius: 50%;
+    margin: 2%;
+}
+.topTitle {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left:20%;
+    top: -80px;
+}
+.topTitle h1{
+    font-size: ;
 }
