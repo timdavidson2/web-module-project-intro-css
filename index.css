@@ -1,0 +1,105 @@
+*{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* font-family: 'Chelsea Market', cursive; */
+/* font-family: 'Roboto Mono', monospace; */
+
+.links{
+    text-align: center;
+    margin: 3%;
+}
+.links a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 0px;
+    
+}
+.plan{
+    color: #FFFFFF;
+    background-color: #FF764E;
+}
+.links a:hover{
+    color:black;
+    background-color: hotpink;
+
+}
+.learn{
+    color: #FFFFFF;
+    background-color: #5ED3EB;
+}
+.get{
+    color: #FFFFFF;
+    background-color: #FFCD69;
+}
+header{
+    width: 100%;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+.topImage{
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin: 2%;
+}
+.topTitle {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left:15%;
+    top: -50%;
+}
+.topTitle p{
+    font-size: 1.25rem;
+}
+.info{
+    width: 80%;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #DDB9A3;
+}
+.fire img{
+    width: 25%;
+}
+.fire{
+    text-align: center;
+    font-size: 1.25rem;
+    margin:1% auto;
+    width: 30%;
+
+}
+.fire p span{
+    font-weight:bolder;
+    /* color:hotpink; */
+}
+.fees img{
+    width: 25%;
+}
+.fees{
+    text-align: center;
+    font-size: 1.25rem;
+    margin:1% auto;
+    width: 30%;
+}
+.fees p span{
+    font-weight:bolder;
+}
+footer img{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
